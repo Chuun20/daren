@@ -8,10 +8,10 @@
           <th>Price</th>
           <th></th>
         </tr>
-          <itemList itemName="GTX 1050TI" :itemPrice="5000" @addCart="addToArray" />
-          <itemList itemName="GTX 1660TI" :itemPrice="15000" @addCart="addToArray" />
-          <itemList itemName="RTX 3090TI" :itemPrice="80000" @addCart="addToArray" />
-          <itemList itemName="RTX 4090TI" :itemPrice="100000" @addCart="addToArray" />
+          <itemList itemName="Intel i3 12th gen" :itemPrice="8500" @addCart="addToArray" />
+          <itemList itemName="Intel i5 12th gen" :itemPrice="10500" @addCart="addToArray" />
+          <itemList itemName="Intel i7 12th gen" :itemPrice="12500" @addCart="addToArray" />
+          <itemList itemName="Intel i9 12th gen" :itemPrice="14500" @addCart="addToArray" />
       </table>
     </div>
     <div class="cart-list">

@@ -8,10 +8,10 @@
                     <th>Price</th>
                     <th></th>
                 </tr>
-                    <itemList itemName="GTX 1050TI" :itemPrice="5000" :isDisabled="itsDisabled" />
-                    <itemList itemName="GTX 1660TI" :itemPrice="15000" :isDisabled="itsDisabled" />
-                    <itemList itemName="RTX 3090TI" :itemPrice="80000" :isDisabled="itsDisabled" />
-                    <itemList itemName="RTX 4090TI" :itemPrice="100000" :isDisabled="itsDisabled" />
+                    <itemList itemName="Intel i3 12th gen" :itemPrice="8500" :isDisabled="itsDisabled" />
+                    <itemList itemName="Intel i5 12th gen" :itemPrice="10500" :isDisabled="itsDisabled" />
+                    <itemList itemName="Intel i7 12th gen" :itemPrice="12500" :isDisabled="itsDisabled" />
+                    <itemList itemName="Intel i9 12th gen" :itemPrice="14500" :isDisabled="itsDisabled" />
             </table>
         </div>
     
@@ -43,7 +43,7 @@ export default {
 
     methods: {
         login() {
-            if (this.password != '12345') {
+            if (this.password != 'abcdef') {
                 this.errmsg = 'wrong password';
             } else {
                 localStorage.setItem('authToken', 'true'); // Set the 'logged' item in localStorage to 'true'
